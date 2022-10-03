@@ -1,0 +1,22 @@
+
+a {cursor: pointer;}
+
+.main {
+    width: 100%;
+	height: 200px;
+	background: #333;
+	border-top: 1px solid rgb(192, 188, 188);
+	position: relative;
+	bottom: 0;
+	z-index: 1;
+ }
+
+ 
+.mainaboutus {
+    width: 100%;
+	height: 800px;
+	border-top: 1px solid rgb(192, 188, 188);
+	position: relative;
+	bottom: 0;
+	z-index: 1;
+ }

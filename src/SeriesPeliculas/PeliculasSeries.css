@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Merriweather:wght@300&family=Qwitcher+Grypen:wght@700&family=Roboto+Condensed:wght@300&display=swap');
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size:20px;
+ 
+}
+
+
+
+.imgportadapeli {
+  height: 400px; 
+  width: 250px; 
+  margin-bottom: 20px;
+  transition: box-shadow 0.5s;
+}
+
+.imgportadapeli:hover {
+  box-shadow: 5px 5px rgb(87, 85, 85); 
+  cursor: pointer;
+}
+
+
+
+.imgportadaserie {
+  height: 400px; 
+  width: 250px;
+  transition: box-shadow 0.5s;
+}
+
+.imgportadaserie:hover {
+  box-shadow: 5px 5px rgb(87, 85, 85);  cursor: pointer;
+}
+
+
+.imgdelapelicula {
+  height: 400px; width: 425px;
+}
+
+
+img {
+    height: 400px; width: 250px;
+  }
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+
+
+
+.row > p > a{
+    text-decoration: none;
+    color: black;
+}
+
+.row > p > a:hover{
+    color: white;
+}
+/*responsive*/
+@media(max-width: 767px){
+  .row{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .row{
+    width: 100%;
+}
+}
